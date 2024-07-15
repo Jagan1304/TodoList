@@ -1,0 +1,35 @@
+body{
+    font-family: Arial;
+    font-size: 15px;
+}
+.todo-text,.todo-date{
+    padding: 7px 10px;
+}
+.todo-add{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.todo-delete{
+    background-color: red;
+    color: white;
+    padding: 10px 0px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.todo-input-grid,.todo-output-grid{
+    display: grid;
+    grid-template-columns: 200px 150px 100px ;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+}
+.todo-input-grid{
+    align-items:stretch;
+}
+.todo-output-grid{
+    margin-top: 10px;
+}
